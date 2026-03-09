@@ -12,10 +12,10 @@ header {
     text-align: center;
 }
 
-nav a {
-    color: darkgreen;
-    margin: 0 15px;
-    text-decoration:double
+h3 {
+    color: yellow;
+    margin: 0 30px;
+    text-decoration: none;
 }
 
 main {
@@ -61,7 +61,17 @@ border: 1px, solid black;
   padding: 15px;
   margin-left: 5px;
 }
+
 h1{
+    color: green;
  display: flex;
  justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    color: crimson;
 }
