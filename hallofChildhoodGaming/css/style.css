@@ -67,6 +67,7 @@ h1{
     color: rgb(0, 128, 0);
  display: flex;
  justify-content: center;
+ font-family: 'Pixel Code', 'Courier New', Courier, monospace;
 }
 
 

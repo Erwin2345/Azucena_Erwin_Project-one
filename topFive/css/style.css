@@ -2,18 +2,18 @@ body {
     font-family: Impact, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: pink; 
+    background-color: rgb(255, 192, 203); 
 }
 
 header {
-    background-color: lightcyan;
-    color: white;
+    background-color: rgb(224, 255, 255);
+    color: rgb(255, 255, 255)ff;
     padding: 2rem;
     text-align: center;
 }
 
 ol {
-    color: blueviolet;
+    color: rgb(138, 43, 226);
     margin: 0 15px;
     text-decoration:double
 }
@@ -30,7 +30,7 @@ footer {
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    background: #ddd;
+    background: rgb(221, 221, 221);
     position: static;
     bottom: 25px;
     width: 25%;
@@ -45,15 +45,15 @@ col-left{
  width: 60%;
  padding: 15px; 
  margin-right: 5px;
- background-color: lightgray;
+ background-color: rgb(211, 211, 211);
 
 }
 
 p {
-background-color: green;
-color: pink;
+background-color: rgb(0, 128, 0);
+color: rgb(255, 192, 203);
 padding: 10px;
-border: 1px, solid black;
+border: 1px, solid rgb(0, 0, 0);
 }
 
 .col-right{
@@ -62,7 +62,7 @@ border: 1px, solid black;
   margin-left: 5px;
 }
 h1{
-    color: red;
+    color: rgb(255, 0, 0);
  display: flex;
  justify-content: center;
 }
@@ -71,13 +71,13 @@ a{
 }
 
 ul{
-    color: deeppink;
+    color: rgb(255, 20, 147);
     text-decoration: double;
     margin: 0 15px;
 }
 
 h2{
-    color: brown;
+    color: rgb(165, 42, 42);
     font-size: 24px;
 }
 
