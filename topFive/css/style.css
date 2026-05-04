@@ -33,7 +33,7 @@ footer {
     background: rgb(221, 221, 221);
     position: static;
     bottom: 25px;
-    width: 25%;
+    width: 100%;
 }
 
 .flex-contrainer{

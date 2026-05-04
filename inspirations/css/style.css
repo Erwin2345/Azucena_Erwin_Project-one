@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgb(255, 165, 0);
@@ -34,7 +34,7 @@ footer {
     background: rgb(221, 221, 221);
     position: static;
     bottom: 25px;
-    width: 25%;
+    width: 100%;
 }
 
 .flex-contrainer{

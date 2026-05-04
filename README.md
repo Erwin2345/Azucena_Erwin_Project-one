@@ -4,7 +4,9 @@ Project Overview: From Project 1 to Project 3
 
 # project overview
 
-For my Project 3 required reworking my previous Project 1 into a more complete draft for my Project 3 and rebuilt it into a website that everyone can see. And to show that I am capable of createing a website on my own terms. The
+For my Project 3 required reworking my previous Project 1 into a more complete draft for my Project 3 and rebuilt it into a website that everyone can see. And to show that I am capable of creating a website on my own terms. 
+
+The sheer amount of content it had goes to show that it basically like my diary in internet form since I never have owned it before as it contained some of the thing that I like or know.
 
 
 
