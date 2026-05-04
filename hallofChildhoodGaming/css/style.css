@@ -80,7 +80,19 @@ h2{
     text-align: center;
 }
 
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 0, 222), 0 0 30px rgb(255, 0, 222);
+  }
+  to {
+    text-shadow: 0 0 2px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 0, 222), 0 0 15px rgb(255, 0, 222);
+  }
+}
 
+h1, h3 {
+  color: rgb(255, 255, 255);
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+}
 
 img{
 display: block;
@@ -91,3 +103,29 @@ height: auto;
 text-align: center;
 border: none;
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+header {
+  overflow: hidden; /* Prevents scrollbars during animation */
+}
+
+header a {
+  display: inline-block;
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+/* Stagger the links so they slide in one by one */
+header a:nth-child(1) { animation-delay: 0.1s; }
+header a:nth-child(2) { animation-delay: 0.2s; }
+header a:nth-child(3) { animation-delay: 0.3s; }
+header a:nth-child(4) { animation-delay: 0.4s; }

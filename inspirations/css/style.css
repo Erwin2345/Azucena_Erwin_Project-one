@@ -79,7 +79,16 @@ h2{
     text-align: center;
 }
 
-
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 img{
 display: block;
@@ -89,4 +98,43 @@ width:  50%;
 height: auto;
 text-align: center;
 border: none;
+}
+
+img {
+  animation: fadeInUp 1.5s ease-out;
+  width: 50%; /* Keeps images responsive */
+  transition: transform 0.4s ease; /* Makes the movement smooth */
+  cursor: pointer;
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+img:hover {
+  transform: scale(1.05); /* Zooms in by 5% */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Adds a shadow for depth */
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+h1, h3 {
+  animation: pulse 2s infinite;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 2. Apply it to your images */
+img {
+  animation: slideInLeft 1s ease-out forwards;
 }
