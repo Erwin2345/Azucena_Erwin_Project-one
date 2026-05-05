@@ -1,15 +1,21 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: rgb(255, 165, 0);
 }
 
 header {
-    background-color: rgb(240, 128, 128);
+    background-color: rgb(77, 214, 77);
     color: rgb(255, 255, 255);
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
+}
+
+nav a {
+    color: rgb(70, 255, 54);
+    margin: 0 15px;
+    text-decoration:double
 }
 
 h3 {
@@ -113,14 +119,19 @@ img:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Adds a shadow for depth */
 }
 
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 0, 222), 0 0 30px rgb(255, 0, 222);
+  }
+  to {
+    text-shadow: 0 0 2px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 0, 222), 0 0 15px rgb(255, 0, 222);
+  }
 }
 
 h1, h3 {
-  animation: pulse 2s infinite;
+  color: rgb(52, 99, 56);
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes slideInLeft {

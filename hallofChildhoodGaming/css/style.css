@@ -1,15 +1,21 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: rgb(240, 169, 169);
 }
 
 header {
-    background-color: rgba(105, 223, 144, 0.493);
-    color: rgb(105, 86, 86);
-    padding: 2rem;
+    background-color: rgb(77, 214, 77);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
     text-align: center;
+}
+
+nav a {
+    color: rgb(70, 255, 54);
+    margin: 0 15px;
+    text-decoration:double
 }
 
 h3 {
@@ -90,7 +96,7 @@ h2{
 }
 
 h1, h3 {
-  color: rgb(255, 255, 255);
+  color: rgb(52, 99, 56);
   animation: neonGlow 1.5s ease-in-out infinite alternate;
 }
 
@@ -114,6 +120,9 @@ border: none;
     opacity: 1;
   }
 }
+
+
+
 
 header {
   overflow: hidden; /* Prevents scrollbars during animation */
