@@ -121,20 +121,3 @@ border: none;
   }
 }
 
-
-
-
-header {
-  overflow: hidden; /* Prevents scrollbars during animation */
-}
-
-header a {
-  display: inline-block;
-  animation: slideInLeft 0.8s ease-out forwards;
-}
-
-/* Stagger the links so they slide in one by one */
-header a:nth-child(1) { animation-delay: 0.1s; }
-header a:nth-child(2) { animation-delay: 0.2s; }
-header a:nth-child(3) { animation-delay: 0.3s; }
-header a:nth-child(4) { animation-delay: 0.4s; }
