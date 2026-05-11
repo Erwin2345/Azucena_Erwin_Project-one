@@ -108,15 +108,15 @@ border: none;
 
 img {
   animation: fadeInUp 1.5s ease-out;
-  width: 50%; /* Keeps images responsive */
-  transition: transform 0.4s ease; /* Makes the movement smooth */
+  width: 50%; 
+  transition: transform 0.4s ease; 
   cursor: pointer;
-  border-radius: 8px; /* Optional: adds rounded corners */
+  border-radius: 8px; 
 }
 
 img:hover {
-  transform: scale(1.05); /* Zooms in by 5% */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Adds a shadow for depth */
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 
@@ -145,7 +145,7 @@ h1, h3 {
   }
 }
 
-/* 2. Apply it to your images */
+
 img {
   animation: slideInLeft 1s ease-out forwards;
 }

@@ -113,7 +113,7 @@ h1, h3 {
   animation: neonGlow 1.5s ease-in-out infinite alternate;
 }
 
-/* Apply to images on hover */
+
 img:hover {
   animation: imagePulse 0.8s infinite alternate;
   cursor: pointer;
@@ -131,20 +131,19 @@ img:hover {
   }
 }
 
-/* 2. Apply it to the list items using Scroll-Driven properties */
 ol {
   list-style: none;
   margin-bottom: 50px;
 
-  /* This names the timeline for this specific element */
+
   view-timeline-name: --itemReveal;
   view-timeline-axis: block;
 
-  /* This triggers the animation based on the element's visibility */
+
   animation: reveal linear both;
   animation-timeline: --itemReveal;
 
-  /* This ensures the animation only plays at the "entry" of the scroll */
+
   animation-range: entry 5% entry 80%;
 }
 
@@ -152,19 +151,18 @@ ul {
   list-style: none;
   margin-bottom: 50px;
 
-  /* This names the timeline for this specific element */
   view-timeline-name: --itemReveal;
   view-timeline-axis: block;
 
-  /* This triggers the animation based on the element's visibility */
+
   animation: reveal linear both;
   animation-timeline: --itemReveal;
 
-  /* This ensures the animation only plays at the "entry" of the scroll */
+
   animation-range: entry 5% entry 80%;
 }
 
-/* Make images look nice */
+
 img {
   max-width: 100%;
   height: auto;

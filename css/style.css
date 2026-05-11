@@ -106,7 +106,7 @@ a {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-15px); /* Moves up 15 pixels */
+        transform: translateY(-15px); 
     }
     100% {
         transform: translateY(0px);
@@ -120,10 +120,10 @@ a {
 }
 
 .gif img {
-    /* name | duration | timing-function | iteration-count */
+ 
     animation: float 3s ease-in-out infinite;
     
-    /* Optional: make the edges a bit softer for the diamond */
+
     border-radius: 10px; 
 }
 
