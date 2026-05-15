@@ -5,6 +5,11 @@ body {
     background-color: rgb(240, 169, 169);
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: clip;
+}
+
 header {
     background-color: rgb(77, 214, 77);
     color: rgb(255, 255, 255);

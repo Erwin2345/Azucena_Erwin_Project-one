@@ -1,8 +1,13 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    padding: 0;
+    padding: 20;
     background-color: rgb(255, 192, 203); 
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: clip;
 }
 
 header {
@@ -42,8 +47,8 @@ footer {
  flex-direction: row
 }
 
-col-left{
- width: 60%;
+.col-left{
+ width: 40%;
  padding: 15px; 
  margin-right: 5px;
  background-color: rgb(211, 211, 211);
@@ -55,7 +60,7 @@ background-color: rgb(0, 128, 0);
 color: rgb(255, 192, 203);
 padding: 10px;
 font-size: larger;
-border: 1px, solid rgb(0, 0, 0);
+border: 1px solid rgb(0 0 0);
 }
 
 h4 {
@@ -63,7 +68,7 @@ background-color: rgb(0, 128, 0);
 color: rgb(255, 192, 203);
 padding: 10px;
 font-size: larger;
-border: 1px, solid rgb(0, 0, 0);
+border: 1px solid rgb(0 0 0);
 }
 
 .col-right{
@@ -89,6 +94,7 @@ ul{
 h2{
     color: rgb(165, 42, 42);
     font-size: 24px;
+    text-align: center;
 }
 
 h3{
@@ -144,7 +150,7 @@ img:hover {
   }
 }
 
-ol {
+ol, ul {
   list-style: none;
   margin-bottom: 50px;
 
@@ -157,12 +163,13 @@ ol {
   animation-timeline: --itemReveal;
 
 
-  animation-range: entry 5% entry 80%;
+  animation-range: entry 10% entry 80%;
 }
 
-ul {
-  list-style: none;
+li {
+ list-style: none;
   margin-bottom: 50px;
+
 
   view-timeline-name: --itemReveal;
   view-timeline-axis: block;
@@ -172,7 +179,8 @@ ul {
   animation-timeline: --itemReveal;
 
 
-  animation-range: entry 5% entry 80%;
+  animation-range: entry 10% entry 80%;
+
 }
 
 
