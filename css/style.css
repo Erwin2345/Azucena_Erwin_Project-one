@@ -25,12 +25,6 @@ nav a {
     text-decoration: double;
 }
 
-.space-jam-element {
-    position: absolute;
-    right: 0;          /* Flushes it to the far right edge */
-    top: 50%;          /* Adjust this percentage to move it up or down */
-    transform: translateY(-50%); /* Keeps it perfectly centered vertically */
-}
 
 main {
     padding: 20px;
