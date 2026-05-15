@@ -12,10 +12,16 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;               
+}
+
 nav a {
     color: rgb(12, 10, 92, 0.527);
     margin: 0 15px;
-    text-decoration:double
+    font-size: larger;
 }
 
 h3 {
@@ -23,6 +29,7 @@ h3 {
     margin: 0 30px;
     text-decoration: none;
     text-align: center;
+    font-size: x-large;
 }
 
 main {

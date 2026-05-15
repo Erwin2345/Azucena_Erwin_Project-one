@@ -13,10 +13,23 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;               
+}
+
 nav a {
     color: rgba(12, 10, 92, 0.527);
     margin: 0 15px;
-    text-decoration:double
+    text-decoration: double;
+}
+
+.space-jam-element {
+    position: absolute;
+    right: 0;          /* Flushes it to the far right edge */
+    top: 50%;          /* Adjust this percentage to move it up or down */
+    transform: translateY(-50%); /* Keeps it perfectly centered vertically */
 }
 
 main {
@@ -42,7 +55,7 @@ footer {
 
 .flex-contrainer{
  display: flex; 
- flex-direction: row
+ flex-direction: row-reverse
 }
 
 col-left{

@@ -10,10 +10,17 @@ header {
     color: rgb(255, 255, 255);
     padding: 1rem;
     text-align: center;
+    font-size: larger;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;               
 }
 
 nav a {
-    color: rgb(70, 255, 54);
+    color: rgb(120, 128, 119);
     margin: 0 15px;
     text-decoration:double
 }
@@ -23,6 +30,7 @@ h3 {
     margin: 0 30px;
     text-decoration: none;
     text-align: center;
+    font-size: larger;
 }
 
 main {
