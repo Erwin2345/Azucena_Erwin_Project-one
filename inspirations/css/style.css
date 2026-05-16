@@ -60,12 +60,31 @@ footer {
  flex-direction: row
 }
 
-col-left{
+.col-left{
  width: 60%;
  padding: 15px; 
  margin-right: 5px;
  background-color: rgb(211, 211, 211);
 
+}
+
+.fixed-logo {
+    width: 150px;          
+    height: auto;       
+    display: block;         
+    margin: 0 auto;        
+    
+
+    animation: none !important; 
+    transition: none !important; 
+    transform: none !important;  
+}
+
+
+.logo-box {
+    margin-bottom: 40px;  
+    padding: 10px;
+    clear: both;       
 }
 
 h4 {
@@ -113,7 +132,7 @@ img{
 display: block;
 margin-left: auto;
 margin-right: auto;
-width:  50%;
+width:  0%;
 height: auto;
 text-align: center;
 border: none;

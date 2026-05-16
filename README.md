@@ -1,35 +1,42 @@
-# project_1
+# Project Overview
 
-Project Overview: From Project 1 to Project 3
+Project Overview:  Project 3 (Iterative Redesign of Project 1)
+Objective: To systematically re-engineer a foundational web draft into an optimized responsive digital repository hosted in a live production environment.
 
-# project overview
+# Website Structure and Content
 
-For my Project 3 required reworking my previous Project 1 into a more complete draft for my Project 3 and rebuilt it into a website that everyone can see. And to show that I am capable of creating a website on my own terms. 
+For my Project 3, it functions as a comprehensive, curated digital archive. It translates the subjective personal narratives I created into a structured multi-page user experience. 
 
-The sheer amount of content it had goes to show that it basically like my diary in internet form since I never have owned it before as it contained some of the thing that I like or know.
+The content is organized into four primary domains:
+
+   * Inspirations Page: A personal review of seminal comic and manga artists, analyzing their influence on my personal aesthetic and visual style.
+
+   * Top Five Page: An exploration that spotlghts my favorite Broadway productions alongside an evaluation list of cinematic properties and media with strong potential for theatrical adaptation.
+
+   * Childhood Gaming Page: A brand-new page section that I added dedicated to the video games that I have played back when I was a kid.
+
+   * Technical Showcase: A transparent overview documenting the underlying technical stack, execution framework, and design system.
 
 
 
-# technical overview
 
-The visual experience shown is built using a combination of CSS Keyframe Animations and Photoshop Gifs to simulate the "lightly billowing effect described in the poem itself.
+# Major Revisions since Project 1
 
-    *Animations: I utilized the opacity fades and translate Y to create a sense of moving images that popup that make you feels both weighted and ethereal.
-   
-    * Transformations: Using scale and rotate properties on individual  element, that I ensured that no two visual elements move identically, All while capturing what I feel when creating this project 3.
-   
-    *Tech Stark: The project is written in HTML5 and CSS3, developed within Visual Studio Code.
+The transition from Project 1 to Project 3 focused on expending content, fixing broken systems and parts that are incomplete, and optimize the visual design to a somewhat reasonable level.
 
-    *Hosting: The live environment is deployed via the GitHub Pages, in a way that allow a a seamless, high-performance web experience.
+    * Expanded Content: Added the new Childhood Gaming Page section to deepen the narrative of it being my personal website.
 
-# acknowledgment
+    * Navigation Optimization: Replaced the flawed, rigid layout from the Project 1 with a responsive navigation framework designed to preserve the layout integrity across the diverse viewport dimensions.
 
-This project stands on the shoulders of the open-source community.
+    * Dynamics Visuals: Integrated CSS Keyframe Animations for each pages along with cutsom Gifs and Logo created by me to make something that is made by me.
 
-     *The Inspirations Page contains the famous comic and manga artists that I know of that inspired me even if it not planned out like I have hope to be.
+    * Asymmetrical Motion: Applied the individualized transformations such as Float, fadeIn, and SlideIn so elements can move independently rather than uniformly.
+    
+    * Live Deployment: Migration of the source code from a local development environment to a public, high-performance web infrastructure via GitHub Pages.
 
-     Next, the Top Five page are mostly made of Broadway Musical that I find very Charming and movies that I believe have potential to be adapted to Broadway since its the one that I find without doing games or movies.
+# Acknowledgment and Reflecting on Personal Growth
 
-     * The responsive navigation framework was guided by learning what went wrong with project 1 and how to overhaul it to be a competant website for Visual Studio Code while adding a new page exploring my childhood gaming.
 
-     *Lastly, Special thanks to the Professor for allowing me to express myself through Visual Studio Code since I always have thoughts in my head but never have a chance to do it.
+    * This semester provided me the necessary tools to turn internal, unexpressed thoughts into the front-end software engineering and iterative system design. Utilizing the Visual Studio Code have facilitated a clear shift from passive, syntax-driven learning to autonomous, architectural execution.
+    
+    * Diagnosing and resolving the structural deficits of Project 1 provided critical experience in debugging and responsive design principles. Ultimately, this lifecycle demonstrates my technical capacity to independently conceptualize, program, optimize, and deploy a responsive web application that satisfies rigorous production standards.

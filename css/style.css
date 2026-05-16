@@ -88,7 +88,24 @@ text-align: center;
 
 }
 
+.fixed-logo {
+    width: 150px;          
+    height: auto;       
+    display: block;         
+    margin: 0 auto;        
+    
 
+    animation: none !important; 
+    transition: none !important; 
+    transform: none !important;  
+}
+
+
+.logo-box {
+    margin-bottom: 40px;  
+    padding: 10px;
+    clear: both;       
+}
 
 .website{
     display:flex;
