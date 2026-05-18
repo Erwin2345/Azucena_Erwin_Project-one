@@ -63,6 +63,7 @@ font-size: larger;
 border: 1px solid rgb(0 0 0);
 }
 
+
 .fixed-logo {
     width: 150px;          
     height: auto;       
@@ -74,7 +75,6 @@ border: 1px solid rgb(0 0 0);
     transition: none !important; 
     transform: none !important;  
 }
-
 
 .logo-box {
     margin-bottom: 40px;  
@@ -140,6 +140,7 @@ nav a {
     font-size: 20px;
 }
 
+
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
@@ -164,11 +165,6 @@ h1, h3 {
   animation: neonGlow 1.5s ease-in-out infinite alternate;
 }
 
-
-img:hover {
-  animation: imagePulse 0.8s infinite alternate;
-  cursor: pointer;
-}
 
 
 @keyframes reveal {

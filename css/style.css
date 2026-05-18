@@ -125,6 +125,16 @@ text-align: center
     text-align: center;
 }
 
+div{
+font-size: larger;
+text-align: center
+}
+
+.image-container{
+    text-align: center;
+}
+
+
 img{
 width:  50%;
 height: auto;
@@ -144,6 +154,7 @@ a {
     width: 100%;
   }
 }
+
 
 @keyframes float {
     0% {
